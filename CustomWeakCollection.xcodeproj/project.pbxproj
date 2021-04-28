@@ -14,6 +14,8 @@
 		3FAFA05C2639451A00E564F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FAFA05B2639451A00E564F0 /* Assets.xcassets */; };
 		3FAFA05F2639451A00E564F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FAFA05D2639451A00E564F0 /* LaunchScreen.storyboard */; };
 		3FAFA0622639451A00E564F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAFA0612639451A00E564F0 /* main.m */; };
+		3FAFA06E2639455A00E564F0 /* DFTargetAssociationObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAFA06A2639455A00E564F0 /* DFTargetAssociationObject.m */; };
+		3FAFA06F2639455A00E564F0 /* DFWeakDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAFA06D2639455A00E564F0 /* DFWeakDictionary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		3FAFA05E2639451A00E564F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FAFA0602639451A00E564F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FAFA0612639451A00E564F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FAFA06A2639455A00E564F0 /* DFTargetAssociationObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFTargetAssociationObject.m; sourceTree = "<group>"; };
+		3FAFA06B2639455A00E564F0 /* DFWeakDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFWeakDictionary.h; sourceTree = "<group>"; };
+		3FAFA06C2639455A00E564F0 /* DFTargetAssociationObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFTargetAssociationObject.h; sourceTree = "<group>"; };
+		3FAFA06D2639455A00E564F0 /* DFWeakDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFWeakDictionary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,7 @@
 		3FAFA04E2639451800E564F0 /* CustomWeakCollection */ = {
 			isa = PBXGroup;
 			children = (
+				3FAFA0692639455A00E564F0 /* Source */,
 				3FAFA04F2639451800E564F0 /* AppDelegate.h */,
 				3FAFA0502639451800E564F0 /* AppDelegate.m */,
 				3FAFA0522639451800E564F0 /* SceneDelegate.h */,
@@ -74,6 +81,17 @@
 				3FAFA0612639451A00E564F0 /* main.m */,
 			);
 			path = CustomWeakCollection;
+			sourceTree = "<group>";
+		};
+		3FAFA0692639455A00E564F0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				3FAFA06C2639455A00E564F0 /* DFTargetAssociationObject.h */,
+				3FAFA06A2639455A00E564F0 /* DFTargetAssociationObject.m */,
+				3FAFA06B2639455A00E564F0 /* DFWeakDictionary.h */,
+				3FAFA06D2639455A00E564F0 /* DFWeakDictionary.m */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +167,8 @@
 				3FAFA0512639451800E564F0 /* AppDelegate.m in Sources */,
 				3FAFA0622639451A00E564F0 /* main.m in Sources */,
 				3FAFA0542639451800E564F0 /* SceneDelegate.m in Sources */,
+				3FAFA06E2639455A00E564F0 /* DFTargetAssociationObject.m in Sources */,
+				3FAFA06F2639455A00E564F0 /* DFWeakDictionary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
